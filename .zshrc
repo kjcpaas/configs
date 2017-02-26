@@ -56,6 +56,7 @@ PROMPT="😺  $PROMPT"
 
 export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
 export PATH="$PATH:$HOME/.rbenv/bin" # Add rbenv to PATH for scripting
+export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
