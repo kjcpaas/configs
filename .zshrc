@@ -5,7 +5,6 @@ export ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="funky"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -44,7 +43,7 @@ ZSH_THEME="funky"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git)
+plugins=(git zsh_reload)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -111,9 +110,6 @@ alias python='/Users/Joy-Quipper/.pyenv/versions/3.6.0/bin/python'
 
 # Dash
 alias dash='open dash://'
-
-# Reload zshrc
-alias reload='source ~/.zshrc'
 
 export NVM_DIR="/Users/Joy-Quipper/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
