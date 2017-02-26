@@ -89,16 +89,6 @@ alias vbun='cd ~/.vim/bundle'
 alias zshrc='v ~/Codes/configs/.zshrc'
 alias vimrc='v ~/Codes/configs/.vimrc'
 
-# Git utils
-alias g='git'
-alias gs='git status'
-alias gpush='git push'
-alias gcom='git commit'
-alias gpull='git pull'
-alias gch='git checkout'
-alias gb='git branch'
-alias glo='git log --oneline'
-
 alias be='bundle exec'
 
 # Heroku
