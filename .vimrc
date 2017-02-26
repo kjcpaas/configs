@@ -1,6 +1,42 @@
-execute pathogen#infect()
+set nocompatible
+filetype off
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+" Load vundle first
+Plugin 'gmarik/vundle'
+
+Plugin 'scrooloose/nerdtree'
+Plugin 'rking/ag.vim'
+Plugin 'itchyny/lightline.vim'
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-sensible'
+Plugin 'tpope/vim-endwise'
+Plugin 'thoughtbot/vim-rspec'
+Plugin 'jiangmiao/auto-pairs'
+Plugin 'suan/vim-instant-markdown'
+Plugin 'elzr/vim-json'
+
+" Syntax highlighting
+Plugin 'mxw/vim-jsx'
+Plugin 'kchmck/vim-coffee-script'
+Plugin 'juvenn/mustache.vim'
+Plugin 'hail2u/vim-css3-syntax'
+Plugin 'isRuslan/vim-es6'
+Plugin 'slim-template/vim-slim'
+
+" Themes
+Plugin 'fabi1cazenave/kalahari.vim'
+Plugin 'glortho/feral-vim'
+Plugin 'queyenth/oxeded.vim'
+Plugin 'kristijanhusak/vim-hybrid-material'
+Plugin 'w0ng/vim-hybrid'
+Plugin 'altercation/vim-colors-solarized'
+
+" Turn on filetype again after seting up bundles
+filetype on
 syntax on
-filetype plugin indent on
 
 " =============================
 " Themes
@@ -98,6 +134,9 @@ map \ :vsplit<CR>
 
 " Create a horizontal new split
 map <Leader>- :split<CR>
+
+" Install bundles
+map <Leader>b :BundleInstall
 
 " Reload vimrc
 map <Leader>z :so $MYVIMRC<CR>
