@@ -83,8 +83,7 @@ alias ls='ls -G'
 alias ip='ipconfig getifaddr en0'
 alias rsq='QUEUE=* be rake resque:work'
 
-# Use mvim for clipboard functionality
-alias v='mvim -v'
+alias v="vim -v"
 alias vbun='cd ~/.vim/bundle'
 
 alias zshrc='v ~/Codes/configs/.zshrc'
