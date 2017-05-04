@@ -39,19 +39,20 @@ source ~/my_code/configs/.zshrc
 alias v="vim"
 ```
 
-Run `source ~/.zshrc` to reload the shell.
+Run `source ~/.zshrc` to reload the shell. `src` can be used after it's lodaed initially.
 
 ### `.vimrc`
 
-Install [Vundle](https://github.com/VundleVim/Vundle.vim) first since it's needed to install plugins.
+Install [vim-plug](https://github.com/junegunn/vim-plug) first since it's needed to install plugins.
 
 ```
- git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
 
 Replace `~/.vimrc` with `source $PATH_TO_CONFIG/configs/.vimrc`.
 
-After opening `vim`, type `:BundleInstall` command to install the bundles. Once the install is successful, restart vim to apply the changes.
+After opening `vim`, type `:PlugInstall` command to install the bundles. Once the install is successful, restart vim to apply the changes.
 
 ## Notes
 

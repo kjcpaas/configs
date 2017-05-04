@@ -1,38 +1,37 @@
 set nocompatible
 filetype off
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
 
-" Load vundle first
-Plugin 'gmarik/vundle'
+call plug#begin('~/.vim/plugged')
 
-Plugin 'scrooloose/nerdtree'
-Plugin 'rking/ag.vim'
-Plugin 'itchyny/lightline.vim'
-Plugin 'scrooloose/nerdcommenter'
-Plugin 'tpope/vim-fugitive'
-Plugin 'tpope/vim-sensible'
-Plugin 'tpope/vim-endwise'
-Plugin 'thoughtbot/vim-rspec'
-Plugin 'jiangmiao/auto-pairs'
-Plugin 'suan/vim-instant-markdown'
-Plugin 'elzr/vim-json'
+Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+Plug 'rking/ag.vim'
+Plug 'itchyny/lightline.vim'
+Plug 'scrooloose/nerdcommenter'
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-sensible'
+Plug 'tpope/vim-endwise'
+Plug 'thoughtbot/vim-rspec'
+Plug 'jiangmiao/auto-pairs'
+Plug 'suan/vim-instant-markdown', { 'for': 'markdown' }
 
 " Syntax highlighting
-Plugin 'mxw/vim-jsx'
-Plugin 'kchmck/vim-coffee-script'
-Plugin 'juvenn/mustache.vim'
-Plugin 'hail2u/vim-css3-syntax'
-Plugin 'isRuslan/vim-es6'
-Plugin 'slim-template/vim-slim'
+Plug 'mxw/vim-jsx'
+Plug 'elzr/vim-json', { 'for': 'json' }
+Plug 'kchmck/vim-coffee-script'
+Plug 'juvenn/mustache.vim'
+Plug 'hail2u/vim-css3-syntax', { 'for': ['scss', 'sass'] }
+Plug 'isRuslan/vim-es6'
+Plug 'slim-template/vim-slim', { 'for': 'slim' }
 
 " Themes
-Plugin 'fabi1cazenave/kalahari.vim'
-Plugin 'glortho/feral-vim'
-Plugin 'queyenth/oxeded.vim'
-Plugin 'kristijanhusak/vim-hybrid-material'
-Plugin 'w0ng/vim-hybrid'
-Plugin 'altercation/vim-colors-solarized'
+Plug 'fabi1cazenave/kalahari.vim'
+Plug 'glortho/feral-vim'
+Plug 'queyenth/oxeded.vim'
+Plug 'kristijanhusak/vim-hybrid-material'
+Plug 'w0ng/vim-hybrid'
+Plug 'altercation/vim-colors-solarized'
+
+call plug#end()
 
 " Turn on filetype again after seting up bundles
 filetype on
@@ -136,7 +135,7 @@ map \ :vsplit<CR>
 map <Leader>- :split<CR>
 
 " Install bundles
-map <Leader>b :BundleInstall
+map <Leader>pi :PlugInstall<Enter>
 
 " Reload vimrc
 map <Leader>z :so $MYVIMRC<CR>
