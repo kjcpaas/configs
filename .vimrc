@@ -13,6 +13,8 @@ Plug 'tpope/vim-endwise'
 Plug 'thoughtbot/vim-rspec'
 Plug 'jiangmiao/auto-pairs'
 Plug 'suan/vim-instant-markdown', { 'for': 'markdown' }
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf.vim'
 
 " Syntax highlighting
 Plug 'mxw/vim-jsx'

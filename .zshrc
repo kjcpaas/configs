@@ -82,6 +82,7 @@ export DISABLE_AUTO_TITLE=true
 eval "$(rbenv init -)" # Initialize rbenv
 
 alias c='clear'
+alias f='fzf'
 alias ls='ls -G'
 alias ip='ipconfig getifaddr en0'
 alias rsq='QUEUE=* be rake resque:work'
