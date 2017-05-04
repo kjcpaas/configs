@@ -4,7 +4,6 @@ filetype off
 call plug#begin('~/.vim/plugged')
 
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
-Plug 'rking/ag.vim'
 Plug 'itchyny/lightline.vim'
 Plug 'scrooloose/nerdcommenter'
 Plug 'tpope/vim-fugitive'
@@ -125,10 +124,13 @@ map nt <c-w>T
 map fn :echo<Space>@%<CR>
 
 " Toggle nerd tree
-map <Leader>q :NERDTreeToggle<Enter>
+map <Leader>q :NERDTreeToggle<CR>
 
-" Find using silver searcher
-map <Leader>f :Ag<Space>
+" fzf shortcuts
+map <Leader>fl :Files<Space>
+map <Leader>co :Colors<Space>
+map <Leader>hi :History/<Space>
+map <Leader>bl :BLines<Space>
 
 " Create a vertical new split
 map \ :vsplit<CR>
@@ -137,7 +139,7 @@ map \ :vsplit<CR>
 map <Leader>- :split<CR>
 
 " Install bundles
-map <Leader>pi :PlugInstall<Enter>
+map <Leader>pi :PlugInstall<CR>
 
 " Reload vimrc
 map <Leader>z :so $MYVIMRC<CR>
