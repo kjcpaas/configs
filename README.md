@@ -9,15 +9,16 @@ You can opt to use them if you want.
 
 ### Shell
 
-- I am using `zsh` for my shell.
-- I am also using [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) for ease of management of `zsh` plugins.
-- Lastly, I use [z](https://github.com/rupa/z) to navigate quickly using my terminal
+- `zsh` for shell
+- [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) for ease of management of `zsh` plugins
+- [z](https://github.com/rupa/z) to navigate quickly by terminal
+- [fzf](https://github.com/junegunn/fzf) for multi-purpose finder
 
 If you are not using all of them, then my `.zshrc` settings might not completely work for you. You'll need to tweak according to your own needs.
 
 ### Vim
 
-I am using [Vundle](https://github.com/VundleVim/Vundle.vim) to manage my Vim plugins. If you are using another plugin manager, you'll need to tweak the `.vimrc`
+I am using [vim-plug](https://github.com/junegunn/vim-plug) to manage my Vim plugins. If you are using another plugin manager, you'll need to tweak the `.vimrc`
 
 
 ## Usage
