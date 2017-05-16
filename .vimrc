@@ -15,6 +15,9 @@ Plug 'suan/vim-instant-markdown', { 'for': 'markdown' }
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 
+" Lazies
+Plug 'rstacruz/sparkup'
+
 " Syntax highlighting
 Plug 'mxw/vim-jsx'
 Plug 'elzr/vim-json', { 'for': 'json' }
