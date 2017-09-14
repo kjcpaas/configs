@@ -54,7 +54,7 @@ PROMPT="😺  $PROMPT"
 
 # User configuration
 
-export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 export PATH="$PATH:$HOME/.rbenv/bin" # Add rbenv to PATH for scripting
 export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
 # export MANPATH="/usr/local/man:$MANPATH"
