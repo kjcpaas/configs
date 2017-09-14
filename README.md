@@ -58,3 +58,5 @@ After opening `vim`, type `:PlugInstall` command to install the bundles. Once th
 ## Notes
 
 I removed my original aliases for `git` since I am now using the plugin from `oh-my-zsh`. The list of commands are [here](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugin:git)
+
+For `docker-compose`, I also use the `docker-compose` plugin. Shortcuts available [here](https://github.com/robbyrussell/oh-my-zsh/blob/master/plugins/docker-compose/docker-compose.plugin.zsh).
