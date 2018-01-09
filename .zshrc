@@ -116,7 +116,7 @@ alias python='/Users/Joy-Quipper/.pyenv/versions/3.6.0/bin/python'
 # Dash
 alias dash='open dash://'
 
-export NVM_DIR="/Users/Joy-Quipper/.nvm"
+export NVM_DIR="~/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 
 # place this after nvm initialization!
