@@ -16,7 +16,7 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 
 " Lazies
-Plug 'rstacruz/sparkup'
+Plug 'mattn/emmet-vim'
 
 " Syntax highlighting
 Plug 'mxw/vim-jsx'
@@ -26,6 +26,7 @@ Plug 'juvenn/mustache.vim'
 Plug 'hail2u/vim-css3-syntax', { 'for': ['scss', 'sass'] }
 Plug 'isRuslan/vim-es6'
 Plug 'slim-template/vim-slim', { 'for': 'slim' }
+Plug 'nikvdp/ejs-syntax', { 'for': 'ejs' }
 
 " Themes
 Plug 'fabi1cazenave/kalahari.vim'
