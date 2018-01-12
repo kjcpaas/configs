@@ -18,8 +18,10 @@ If you are not using all of them, then my `.zshrc` settings might not completely
 
 ### Vim
 
-I am using [vim-plug](https://github.com/junegunn/vim-plug) to manage my Vim plugins. If you are using another plugin manager, you'll need to tweak the `.vimrc`
+- [the_silver_searcher](https://github.com/ggreer/the_silver_searcher) for searching within files.
+- [vim-plug](https://github.com/junegunn/vim-plug) to manage my Vim plugins.
 
+If you are using another plugin manager, you'll need to tweak the `.vimrc`
 
 ## Usage
 
