@@ -76,6 +76,12 @@ set hlsearch                                       " Highlight search results
 set clipboard=unnamed                              " Clipboard
 
 " =============================
+" Language-specific settings
+" =============================
+
+autocmd FileType go setlocal ts=4 sw=4 sts=0 noexpandtab
+
+" =============================
 " Commands
 " =============================
 let mapleader = ','
