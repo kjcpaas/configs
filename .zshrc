@@ -92,6 +92,9 @@ alias rsq='QUEUE=* be rake resque:work'
 
 alias v="vim -v"
 
+alias zshrc='v ~/src/configs/.zshrc'
+alias vimrc='v ~/src/configs/.vimrc'
+
 alias be='bundle exec'
 alias br='bin/rails'
 
