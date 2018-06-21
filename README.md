@@ -34,9 +34,9 @@ If you want to use `z`, add `. $PATH_TO_CONFIG/configs/z.sh` at the very top of 
 
 Example:
 ```
-. ~/my_code/configs/z.sh
+. ~/my_path/configs/z.sh
 
-source ~/my_code/configs/.zshrc
+source ~/my_path/configs/.zshrc
 
 " Add your other settings below this line
 alias v="vim"
@@ -56,6 +56,18 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 Replace `~/.vimrc` with `source $PATH_TO_CONFIG/configs/.vimrc`.
 
 After opening `vim`, type `:PlugInstall` command to install the bundles. Once the install is successful, restart vim to apply the changes.
+
+### `.editorconfig`
+
+I use `.editorconfig` to control basic editor settings (e.g. trimming trailing whitespace, new line at end of file, tabs vs. space, etc). This is so coding style is consistent across all the editors in the machine.
+
+To use, first copy `.editorconfig` to root.
+
+```
+cp ~/my_path/configs/.editorconfig ~/.editorconfig
+```
+
+Check https://editorconfig.org/#download to download plugins for the editors.
 
 ## Notes
 

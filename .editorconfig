@@ -1,0 +1,13 @@
+# Copy this to ~/.editorconfig
+
+[*]
+charset = utf-8                   # UTF-8 encoding by default
+end_of_line = lf                  # Unix-style newlines
+trim_trailing_whitespace = true   # Remove trailing whitespaces
+
+# A "line" is a sequence of zero or more non- characters plus a terminating character
+# http://pubs.opengroup.org/onlinepubs/9699919799/basedefs/V1_chap03.html#tag_03_206
+insert_final_newline = true       # Final line break
+
+indent_style = space              # Use spaces instead of tabs for indent
+indent_size = 2                   # Use 2 spaces for indent
