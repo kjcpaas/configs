@@ -113,8 +113,5 @@ alias tmcf='v ~/.tmux.conf'
 alias redstart='sudo launchctl start io.redis.redis-server'
 alias redstop='sudo launchctl stop io.redis.redis-server'
 
-# Programs
-alias python='/Users/Joy-Quipper/.pyenv/versions/3.6.0/bin/python'
-
 # Dash
 alias dash='open dash://'
