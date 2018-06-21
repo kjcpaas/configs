@@ -14,6 +14,7 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'suan/vim-instant-markdown', { 'for': 'markdown' }
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
+Plug 'editorconfig/editorconfig-vim'
 
 " Lazies
 Plug 'mattn/emmet-vim'
