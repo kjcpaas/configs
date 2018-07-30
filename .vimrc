@@ -69,6 +69,9 @@ set ruler                                          " Show current cursor positio
 set list                                           " Show invisible characters
 set hlsearch                                       " Highlight search results
 set clipboard=unnamed                              " Clipboard
+set foldmethod=syntax                              " Folding
+set nofoldenable                                   " Files are not folded on open
+set foldlevel=100                                  " Fold only current level
 
 " =============================
 " Language-specific settings
