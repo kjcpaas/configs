@@ -56,10 +56,10 @@ source $ZSH/oh-my-zsh.sh
 PROMPT="😺  $PROMPT"
 
 # User configuration
-
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 export PATH="$PATH:$HOME/.rbenv/bin" # Add rbenv to PATH for scripting
 export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
+export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment

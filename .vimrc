@@ -14,7 +14,7 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'suan/vim-instant-markdown', { 'for': 'markdown' }
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
-Plug 'editorconfig/editorconfig-vim'
+"Plug 'editorconfig/editorconfig-vim'
 
 " Lazies
 Plug 'mattn/emmet-vim'
@@ -56,10 +56,17 @@ colorscheme hybrid_reverse
 "colorscheme hybrid
 "colorscheme solarized
 
+autocmd BufWritePre * :%s/\s\+$//e                 " Remove trailing whitespace
+autocmd BufWritePre * :%s/\($\n\s*\)\+\%$//e       " Remove newlines at the end of file
+
+
 " =============================
 " Settings
 " =============================
 
+set expandtab                                      " Use space instead of tabs
+set tabstop=2                                      " Set number of tabs in spaces
+set shiftwidth=2
 set ignorecase                                     " Use case insensitive search,
 set smartcase                                      " except when using capital letters
 set visualbell                                     " Use visual bell instead of beeping when doing something wrong
