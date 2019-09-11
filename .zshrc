@@ -88,9 +88,10 @@ alias c='clear'
 alias f='fzf'
 alias ls='ls -G'
 alias ip='ipconfig getifaddr en0'
+alias lh='open http://localhost'
 alias rsq='QUEUE=* be rake resque:work'
 
-alias v="vim -v"
+alias v="mvim -v"
 
 alias zshrc='v ~/src/configs/.zshrc'
 alias vimrc='v ~/src/configs/.vimrc'
