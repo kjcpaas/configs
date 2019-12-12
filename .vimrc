@@ -140,7 +140,7 @@ map <Leader>v <c-w>K
 map nt <c-w>T
 
 " Get current file's path
-map fn :echo<Space>@%<CR>
+map <Leader>fn :echo<Space>@%<CR>
 
 " Toggle nerd tree
 map <Leader>q :NERDTreeToggle<CR>
