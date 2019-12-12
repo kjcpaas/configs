@@ -14,6 +14,7 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'suan/vim-instant-markdown', { 'for': 'markdown' }
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
+Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 "Plug 'editorconfig/editorconfig-vim'
 
 " Lazies
@@ -59,6 +60,9 @@ colorscheme hybrid_reverse
 autocmd BufWritePre * :%s/\s\+$//e                 " Remove trailing whitespace
 autocmd BufWritePre * :%s/\($\n\s*\)\+\%$//e       " Remove newlines at the end of file
 
+" Prettier settings
+let g:prettier#autoformat = 0
+autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue,*.yaml,*.html PrettierAsync
 
 " =============================
 " Settings
