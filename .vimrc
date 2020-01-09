@@ -94,6 +94,7 @@ autocmd FileType go setlocal ts=4 sw=4 sts=0 noexpandtab
 " Commands
 " =============================
 let mapleader = ','
+let g:user_emmet_leader_key='<c-e>'
 
 " No need to shift :)
 nore ; :
